@@ -110,3 +110,10 @@ label {
   font-size: 15px;
   transition: all ease 0.5s;
 }
+
+#main p {
+  margin-top: 50px;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+}
