@@ -117,3 +117,13 @@ label {
   text-align: center;
   font-size: 14px;
 }
+
+#main a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+#main a:hover {
+  color: purple;
+}
