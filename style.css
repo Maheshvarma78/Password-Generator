@@ -59,6 +59,12 @@ h2 {
   font-weight: bold;
 }
 
+#input button:hover {
+  background: black;
+  color: white;
+  border: 0.1px solid white;
+}
+
 
 #selectors {
   display: flex;
