@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: black;
+  color: white;
+  font-style: italic;
+}
+
+#main {
+  height: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+}
+
+
+h2 {
+  text-transform: uppercase;
+}
+
+#input {
+  display: flex;
+  padding: 10px;
+  background: purple;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+
+}
+
+#input input {
+  padding: 5px;
+  outline: none;
+  background: transparent;
+  border: none;
+  color: white;
+
+}
+
+
+#input button {
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+  background: white;
+  color: #222222;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+
+#selectors {
+  display: flex;
+  width: 100%;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+
+
+}
+
+
+#length {
+  height: 30px;
+  width: 30px;
+  outline: none;
+  border-radius: 50%;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2px;
+}
+
+label {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+
+#input #copy {
+  padding: 5px;
+  background: transparent;
+  margin-right: 5px;
+}
+
+#input #copy .fa-copy,
+.fa-circle-check {
+  color: white;
+  font-size: 15px;
+  transition: all ease 0.5s;
+}
